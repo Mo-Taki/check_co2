@@ -8,6 +8,7 @@ def read():
 
 if __name__ == '__main__':
     co2 = read()
-    if co2 == "":
+    while co2 == "":
         co2=read()
+
     print(co2)
